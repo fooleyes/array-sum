@@ -12,3 +12,12 @@ function add(n, ar){
        return sum;
 }
 
+// or for custum array
+
+function sumArray(arr){
+	var total = 0
+	arr.forEach(function(element){
+		total += element;
+		});
+	return total
+}
