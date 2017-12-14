@@ -1,0 +1,14 @@
+
+//Function for finding smallest number in array and multiplying against nth
+
+function findNthSmallestMultipleInArray(array, nth) {
+var smallest = array[0];
+for(var i = 0; i <= array.length;i++){
+	if(array[i]<=smallest){
+		smallest = array[i];
+		result = array[i];	
+	};
+};
+return smallest * nth;
+
+};
